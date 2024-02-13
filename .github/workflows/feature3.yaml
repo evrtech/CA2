@@ -1,0 +1,21 @@
+name: Feature 3 Deployment
+
+on:
+  push:
+    branches:
+      - feature-3
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Installing Dependencies  
+        run: |
+          pip install -r requirements.txt
+          
+      - name: Deploy
+        run: |
+          pyton3 app.py &
