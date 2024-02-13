@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+#hello-message {
+    color: black;
+    /* text-align: center; */
+}
+
+footer {
+    text-align: center;
+    position: fixed; /* Keeps footer at the bottom */
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #f0f0f0; /* Light gray background color */
+}
