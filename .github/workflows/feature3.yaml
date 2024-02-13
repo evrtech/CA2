@@ -12,6 +12,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Installing Dependencies  
+        run: |
+          pip install -r requirements.txt
+          
       - name: Deploy
         run: |
-          # Add commands to deploy the web application with feature 3
+          pyton3 app.py &
