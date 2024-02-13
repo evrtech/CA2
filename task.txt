@@ -1,0 +1,3 @@
+- Usman Siddiqui(20I-0586): Added current year and repo in footer and centre aligned hello world message
+- Shaheer Imran(20I-0875): Changed the background color and font color of hello world message
+- Haaris Anjum(20I-2607): Added the About Us and Contact page link to the nav bar
