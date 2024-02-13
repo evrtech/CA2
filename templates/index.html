@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> 
     <title>My Website</title>
 </head>
 <body>
@@ -19,5 +19,6 @@
     <footer>
         &copy; 2024 </footer>
 
-    <script src="script.js"></script> </body>git 
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script> 
+</body>
 </html>
